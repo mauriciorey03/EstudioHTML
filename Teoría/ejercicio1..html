@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background:red;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        nav a{
+            text-decoration: none;
+            color: bisque;
+        }
+        nav a span {
+            color:aqua
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <a href=#>Menú <span>especial</span></a>
+    <a href="ejercicio.html">About</a>
+    <a href=#lista>Contact</a>
+    </nav>
+
+    <h1>Mi primer título</h1>
+    <H2>Mi segundo título</H2>
+    <h3>Mi tercer título</h3>
+    <h4>Mi cuarto título</h4>
+    <h5>Mi quinto título</h5>
+    <h6>Mi sexto título</h6>
+    
+    <p>Mi párrafo, <b>negrilla</b> <sub>3</sub> <sup>4</sup></p>
+    <br>
+    <p><!Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span style="color:orangered">Laborum, officiis temporibus deleniti voluptatem cupiditate id dignissimos?</span> Sed nam cum nulla ipsam vitae numquam omnis, ipsa unde earum harum. Minus, consequatur.</p>
+    <p><!Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span style="color:orangered">Laborum, officiis temporibus deleniti voluptatem cupiditate id dignissimos?</span> Sed nam cum nulla ipsam vitae numquam omnis, ipsa unde earum harum. Minus, consequatur.</p>
+
+    <hr>
+    <form action="/a_donde_ir" name="miFormulario" method="get">
+        <!-- FOR se usa en combinación con ID -->
+        <!-- PLACEHOLDER= DESCRIPCIÓN GRIS
+        VALUE= PRECARGA ALGUNOS DATOS
+        name es el key-->
+        <label for="nom">Digite su nombre
+        <input type="" name="nombre" id="nom" placeholder="Escriba solo el primer nombre y primer apellido"></label><br>
+
+        <label for="age">Digite su edad</label>
+        <input type="number" name="age" id="age" placeholder="Años"><br>
+        
+        <label for="ocupacion">Digite su ocupación</label>
+        <input type="text" name="ocupacion" id="ocupacion"><br>
+
+        <label for="">Digite el pass</label>
+        <input type="password" name="pass" id="dato"><br>
+
+        <label for="correo">Correo</label>
+        <input type="text" name="correo" id="correo" value="CORREO"><br>
+
+        <label for="Checkbox">Checkbox</label>
+        <input type="checkbox" id="Checkbox"><br>
+
+        <label for="correo">radio</label>
+        <input type="radio" name="1"><br>
+
+        <label for="correo">radio</label>
+        <input type="radio" name="1"><br>
+
+        <label for="archivo">file</label>
+        <input type="file" id="archivo"><br>
+
+        <label for="">Digite su opinión acerca del servicio</label>
+        <textarea name="" id="" cols="30" rows="10" >Este es un ejemplo</textarea>
+
+        <input type="submit" name="" id="">
+        
+        <button type="submit">Enviar</button>
+
+        <button type="reset">Reset</button>
+
+        <button type="button">Hacer algo con JS</button>
+
+        <button>Botón</button>
+    </form>
+    
+    <ul>
+        <li>lista</li>
+        <li>lista</li>
+        <li>lista</li>
+    </ul>
+    <section id="lista">
+    <ol reversed>
+        <li>lista ordenada</li>
+        <li>lista ordenada</li>
+        <li value="24">lista ordenada</li>
+    </ol>
+    </section>
+</body>
+</html>
