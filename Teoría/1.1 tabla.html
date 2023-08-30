@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de tablas</title>
+</head>
+<body>
+    <table style="border:1px solid black; border-spacing: 10px; width: 100%;">
+        <caption style="color:red;">números del uno al doce</caption>
+        <tr>
+            <th>Ciudad</th>
+            <th>País</th>
+            <th>Continente</th>
+        </tr>
+        <tr>
+            <td colspan="2" style="border: 1px solid black; padding:20px">uno y tres</td> <!-- abarca dos columnas -->
+            <td style="border:1px solid black; padding: 20px;">tres</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid black;">tres</td>
+            <td style="border:1px solid black;">cuatro</td>
+            <td style="border:1px solid black;">cinco</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid black;">seis</td>
+            <td style="border:1px solid black;">siete</td>
+            <td style="border:1px solid black;">ocho</td>
+        </tr>
+    </table>
+    <table style="border:1px solid black; border-spacing: 10px; width: 100%;">
+        <caption style="color:red;">números del uno al doce</caption>
+        <tr>
+            <td rowspan="2" style="border: 1px solid black; padding:20px">uno y cuatro</td> <!-- abarca dos columnas -->
+            <td style="border:1px solid black; padding: 20px;">dos</td>
+            <td style="border:1px solid black; padding: 20px;">tres</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid black;">tres</td>
+            <td style="border:1px solid black;">cinco</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid black;">seis</td>
+            <td style="border:1px solid black;">siete</td>
+            <td style="border:1px solid black;">ocho</td>
+        </tr>
+    </table>
+</body>
+</html>

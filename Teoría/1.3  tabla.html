@@ -1,0 +1,49 @@
+<html>
+<head>
+</head>
+<body>
+<table border="1" style="width: 100%;"> 
+    <!--style="border:1px solid black" esto lo que hace es que le da un borde solamente al rededor de la tabla-->
+    <!--style="border:1px dash black" punteado-->
+    <!--style="border:1px solid black; border-spacing: 10px" negro solido y un espaciado entre el borde y el datos de 10 px-->
+    <!--style="border:1px solid black; border-collapse: collapse" negro solido y colapsa el resto de los bordes-->
+<caption style="color: black"> <h1><u>Acá va el titulo de la tabla</u></h1><h5>una pequeña descripcion</h5>  </caption>
+<tr> 
+    <th rowspan="5" style="padding: 10px;">Recursos</th> <!-- tambien lo puedo usar para poner el nombre de las columnas-->
+    <th colspan="4">Facturación de los últimos tres meses</th> 
+</tr>
+<tr> 
+    <th>Rec 1</th> <!-- tambien lo puedo usar para poner el nombre de las columnas-->
+    <th>Rec 2</th> 
+    <th>Rec 3</th> 
+    <th>Rec 4</th> 
+</tr>
+<tr> 
+    <td style="padding: 10px; text-align: center;">Discos Duros</td>
+    <td style="padding: 10px; text-align: center;">23000</td>
+    <td style="padding: 10px;  text-align: center;">27200</td>
+    <td style="padding: 10px; text-align: center;">26000</td> 
+</tr>
+<tr>
+    <td style="padding: 10px;  text-align: center;">CPU</td>
+    <td style="padding: 10px; text-align: center;">73000</td>
+    <td style="padding: 10px; text-align: center;">67300</td>
+    <td style="padding: 10px;  text-align: center;">51000</td> 
+</tr>
+<tr> 
+    <td style="padding: 10px;  text-align: center;">Monitores</td>
+    <td style="padding: 10px; text-align: center;">53000</td>
+    <td style="padding: 10px; text-align: center;">72000</td>
+    <td style="padding: 10px; text-align: center;">88000</td> 
+</tr>
+<tfoot >
+    <tr>
+        <th colspan="5" style="padding: 10px; border: none;">
+            ejemplo
+        </th>
+    </tr>
+</tfoot>
+
+</table>
+</body>
+</html>
