@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column; 
+    background-color: beige;
+}
+
+nav,h1,h2,h3,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+section {
+    width: 90%;
+    border: red 10px solid;
+}
+
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+table{
+    display: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 74, 233, 0.596);
+}
+.precios{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.precios2{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 10px red solid ;
+    border-left: 10px red solid ;
+    border-right: 10px red solid ;
+
+}
+.logo{
+    margin-right: 40px;
+}
+
+.menu{
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 200px;
+}
+
+.one{
+    background-color: bisque;
+}
+
+.cabeza{ 
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    -webkit-clip-path: polygon(50% 52%, 100% 76%, 100% 100%, 0 100%, 0 76%);
+clip-path: polygon(50% 52%, 100% 76%, 100% 100%, 0 100%, 0 76%);
+}
