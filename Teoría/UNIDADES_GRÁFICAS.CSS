@@ -1,0 +1,22 @@
+/* 
+Unidades gráficas:
+
+Sirven para el TAMAÑO, ESPACIADO, ANCHO, ALTO
+
+-----UNIDADES FIJAS------
+pixeles: 10px (picture elements)
+*puntos
+
+centimientros: cm
+milimetros
+Pulgadas
+*Picas
+
+
+-----UNIDADES RELATIVAS-----
+em 
+rem (medida del tamaño de la letra con relación al contenedor) 16px - 2rem 
+%
+
+
+ */
