@@ -1,0 +1,15 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container div {
+    background-color: azure;
+    padding: 1em;
+}
+
+.container div:hover{
+    border: 1px solid black;
+}
+
